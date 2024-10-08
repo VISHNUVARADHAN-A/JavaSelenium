@@ -13,7 +13,7 @@ public class gettitle {
         WebDriver driver = new EdgeDriver();
         driver.get(GetUrl);
         String GetTile = driver.getTitle();
-        driver.close();
+        driver.quit();
         System.out.println(GetTile);
         //comment added
     }

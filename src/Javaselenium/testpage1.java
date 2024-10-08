@@ -12,7 +12,7 @@ public class testpage1 {
         Thread.sleep(2000);
         String pagetitle =  driver.getTitle();
         Thread.sleep(2000);
-        driver.close();
+        driver.quit();
         System.out.println(pagetitle);
 
     }

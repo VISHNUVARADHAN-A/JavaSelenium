@@ -12,7 +12,7 @@ public class Search {
         driver.findElement(By.id("APjFqb")).sendKeys("hello world");
         driver.findElement(By.id("APjFqb")).sendKeys(Keys.ENTER);
         String pageTitle =driver.getTitle();
-        driver.close();
+        driver.quit();
         System.out.println(pageTitle);
         if (pageTitle.equals("hello world - Google Search")){
             System.out.println("test passed");}
