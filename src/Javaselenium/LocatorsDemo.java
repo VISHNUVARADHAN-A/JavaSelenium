@@ -8,7 +8,7 @@ public class LocatorsDemo {
     public static void main(String[] args) throws InterruptedException {
         
         EdgeDriver driver= new EdgeDriver();
-        driver.get("C:\\Users\\vishn\\coding\\java\\Javaselenium\\Javaselenium\\Javaselenium\\test.html");
+        driver.get("C:\\Users\\vishn\\coding\\java\\Javaselenium\\src\\Javaselenium\\test.html");
         System.out.println("id");
         System.out.println(driver.findElement(By.id("myTextInput")).getText());
         driver.findElement(By.id("myTextInput1")).sendKeys("hi");
