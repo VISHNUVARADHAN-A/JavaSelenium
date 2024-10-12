@@ -90,5 +90,6 @@
         "c:\\Users\\vishn\\coding\\java\\ReferenceLib\\selenium-support-4.25.0.jar",
         "c:\\Users\\vishn\\coding\\java\\ReferenceLib\\selenium-support-4.25.0-sources.jar"
     ],
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

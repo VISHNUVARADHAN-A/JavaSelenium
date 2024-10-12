@@ -36,6 +36,11 @@ public class LocatorsDemo {
         driver.findElement(By.xpath("//*[@id='MyXpathinput']")).sendKeys("Hi from Xpath");
         Thread.sleep(1000);
 
+        System.out.println("#########Full Xpath#########");
+        System.out.println(driver.findElement(By.xpath("/html/body/form/table/tbody/tr[4]/td[3]")).getText());
+        driver.findElement(By.xpath("/html/body/form/table/tbody/tr[4]/td[4]/input")).sendKeys("Hi from Xpath");
+        Thread.sleep(1000);
+
         System.out.println("#########CSS se#########");
         System.out.println(driver.findElement(By.cssSelector("#tbodyId > tr:nth-child(3) > td:nth-child(3)")).getText());
         driver.findElement(By.cssSelector("#tbodyId > tr:nth-child(3) > td:nth-child(4) > input[type=text]")).sendKeys("Hi from CSS");
