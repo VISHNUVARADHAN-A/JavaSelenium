@@ -1,4 +1,6 @@
 {
+
+        "maven.executable.path": "C:\\Users\\vishn\\coding\\java\\ReferenceLib\\apache-maven-3.9.9\\bin",
     "java.project.sourcePaths": [
         "src"
     ],
@@ -91,5 +93,5 @@
         "c:\\Users\\vishn\\coding\\java\\ReferenceLib\\selenium-support-4.25.0-sources.jar"
     ],
     "java.compile.nullAnalysis.mode": "automatic",
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "automatic"
 }

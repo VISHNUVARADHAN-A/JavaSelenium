@@ -2,7 +2,7 @@ package Javaselenium;
 import org.openqa.selenium.By;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
-import org.testng.annotations.*;
+
 public class LocatorsDemo {
     public static void main(String[] args) throws InterruptedException {
         //Locators
