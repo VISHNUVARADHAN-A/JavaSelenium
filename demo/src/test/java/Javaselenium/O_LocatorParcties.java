@@ -6,7 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 
 
-public class LocatorParcties {
+public class O_LocatorParcties {
     public static void main(String[] args) throws InterruptedException{
 
     EdgeDriver driver= new EdgeDriver();

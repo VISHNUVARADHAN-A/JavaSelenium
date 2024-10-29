@@ -3,7 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 
-public class LocatorsDemo {
+public class O_LocatorsDemo {
     public static void main(String[] args) throws InterruptedException {
         //Locators
         // ID
