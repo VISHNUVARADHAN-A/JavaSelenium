@@ -3,7 +3,7 @@ package Javaselenium;
 import org.openqa.selenium.edge.EdgeDriver;
 
 import org.openqa.selenium.By;
-public class CalendarUIDemo {
+public class III_CalendarUIDemo {
     public static  void main(String[] args) throws InterruptedException {
         
   

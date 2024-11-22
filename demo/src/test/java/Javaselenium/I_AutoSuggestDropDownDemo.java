@@ -21,7 +21,6 @@ public class I_AutoSuggestDropDownDemo {
                 option.click();
                 break;
             }
-            
         }
         driver.quit();
 
